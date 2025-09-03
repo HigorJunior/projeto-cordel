@@ -26,7 +26,6 @@ html, body {
 header {
     background-color: rgb(0, 0, 0);
     color: white;
-    text-align: center;
 }
 
 header > h1 {
@@ -37,6 +36,7 @@ header > h1 {
 }
 
 header > p {
+    text-align: center;
     padding-bottom: 50px;
 }
 
@@ -50,7 +50,8 @@ header a:hover,footer a:hover {
     text-decoration: underline;
 }
 
-section {
+section { 
+    text-align: center;
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
@@ -59,6 +60,7 @@ section {
 }
 
 section > p{
+    text-align: center;
     padding-bottom: 2em;
 }
 
